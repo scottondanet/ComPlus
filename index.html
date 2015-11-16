@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="complus">
+<head>
+    <base href="/"></base>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+
+    <link rel="shortcut icon" href="" />
+<!--    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,700' rel='stylesheet' type='text/css'>-->
+<!--    <link href='https://fonts.googleapis.com/css?family=Comfortaa:400,700,300' rel='stylesheet' type='text/css'>-->
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,500,300,400italic' rel='stylesheet' type='text/css'>
+        <link href="/content/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css" rel="stylesheet" type="text/css" />
+
+    <title>ComPlus IT Services</title>
+</head>
+<body id="cp">
+<header>
+    <nav class="top-bar" data-topbar role="navigation">
+        <div class="row">
+            <ul class="title-area">
+                <li class="name">
+                <h1><a href="#" class="header-logo"><img src="content/images/logos/complus_white.png" alt="ComPlus IT Services" title="ComPlus"></a></h1>
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <!-- Right Nav Section -->
+                <ul class="right">
+                    <li><a scroll-to="content-info" href="hosted-solutions">Solutions</a></li>
+                    <li><a scroll-to="content-info" href="infrastructure">Infrastructure</a></li>
+                    <li><a scroll-to="content-info" href="managed-it-services">Managed Services</a></li>
+                    <li><a scroll-to="content-info" href="project-management-consultancy">Consultancy</a></li>
+                    <li><a scroll-to="content-info" href="backup-disaster-recovery">Backup</a></li>
+                </ul>
+            </section>
+        </div>
+    </nav>
+</header>
+<main ng-controller="appController">
+    <div class="hero" id="hero">
+        <div class="hero-content">
+            <div class="content">
+                <h1 class="hero__header">Here for your IT needs</h1>
+                <div class="hero-content-1"><p class="hero-description">Talk to us today and find out exactly how we can save you money, boost your productivity and eliminate that special kind of stress that only computers can evoke. We will find the right service for you.
+
+Interested?</p>
+
+                <button type="button">Learn more</button></div>
+            </div>
+        </div>
+    </div>
+    <section>
+<div class="row">
+            <div class="large-8 columns about-content">
+                <h4>This is a content section.</h4>
+                <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+            </div>
+            <div class="large-4 columns">
+                <ul class="small-block-grid-2">
+                    <li><a href="#">
+                        <img src="http://placehold.it/180x180"></a></li>
+                    <li><a href="#">
+                        <img src="http://placehold.it/180x180"></a></li>
+                    <li><a href="#">
+                        <img src="http://placehold.it/180x180"></a></li>
+                    <li><a href="#">
+                        <img src="http://placehold.it/180x180"></a></li>
+                </ul>
+            </div>
+        </div>  
+    </section>
+    <section>
+        <div id="content-info" class="row" ng-view></div>
+    </section>
+</main>
+    <footer role="contentinfo" id="global-footer" class="global-footer global-footer--dark">
+        <nav role="navigation">
+        <div class="row">
+        <section class="small-2 large-4 columns footer-link-group">
+        <h2 class="">
+        <a href="/accounting-software/">Small businesses</a>
+        </h2>
+        <ul class="">
+        <li>
+            <a href="/accounting-software/">Features</a>
+        </li>
+        <li>
+            <a href="/pricing/">Pricing</a>
+        </li>
+        <li>
+            <a href="/customers/">Customer stories</a>
+        </li>
+        <li>
+            <a href="/small-business-guides/">Small Business Guides</a>
+        </li>
+        <li>
+            <a href="/advisors/">Find accountants &amp; bookkeepers</a>
+        </li>
+        <li>
+            <a href="/feature-timeline/">Feature timeline</a>
+        </li>
+        </ul>
+        </section>
+        <section class="small-2 large-4 columns footer-link-group">
+        <h2 class="">
+        <a href="/accounting-software/">Small businesses</a>
+        </h2>
+        <ul class="">
+        <li>
+            <a href="/accounting-software/">Features</a>
+        </li>
+        <li>
+            <a href="/pricing/">Pricing</a>
+        </li>
+        <li>
+            <a href="/customers/">Customer stories</a>
+        </li>
+        <li>
+            <a href="/small-business-guides/">Small Business Guides</a>
+        </li>
+        <li>
+            <a href="/advisors/">Find accountants &amp; bookkeepers</a>
+        </li>
+        <li>
+            <a href="/feature-timeline/">Feature timeline</a>
+        </li>
+        </ul>
+        </section>
+        <section class="small-2 large-4 columns footer-link-group">
+        <h2 class="">
+        <a href="/accounting-software/">Small businesses</a>
+        </h2>
+        <ul class="">
+        <li>
+            <a href="/accounting-software/">Features</a>
+        </li>
+        <li>
+            <a href="/pricing/">Pricing</a>
+        </li>
+        <li>
+            <a href="/customers/">Customer stories</a>
+        </li>
+        <li>
+            <a href="/small-business-guides/">Small Business Guides</a>
+        </li>
+        <li>
+            <a href="/advisors/">Find accountants &amp; bookkeepers</a>
+        </li>
+        <li>
+            <a href="/feature-timeline/">Feature timeline</a>
+        </li>
+        </ul>
+        </section>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="icon-bar five-up">
+            <a class="item">
+                <img src="/content/images/logos/aff_vm.png" >
+            </a>
+            <a class="item">
+                <img src="/content/images/logos/sophos_silver_partner.jpg" >
+            </a>
+            <a class="item">
+                <img src="/content/images/logos/comptia_network_cert.jpg" >
+            </a>
+            <a class="item">
+                <img src="/content/images/logos/aff_vm.png" >
+            </a>
+            <a class="item">
+                <img src="/content/images/logos/aff_vm.png" >
+            </a>
+        </div>
+    </div>
+        <div class="row">
+        © 2015 ComPlus Limited. All rights reserved.
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/common/routing.js"></script>
+    <script src="app/common/directives.js"></script>
+<!--
+    <script type="text/javascript">
+        $(document).foundation();
+    </script>
+-->
+</body>
+</html>
